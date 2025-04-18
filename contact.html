@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact With Us</title>
+    <style>
+        body {
+          'Tahoma', sans-serif; margin: 0; padding: 0;
+        }
+        header{
+            background-color: #8e44ad;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1{
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: medium;
+            transition: color 0.3s ease;
+        }
+        nav a :hover {
+            color: gold;
+        }
+        p {
+            font-size: 18px;
+        }
+        h1, h2{
+            color: #333;
+        }
+        textarea{
+            width: 100px;
+            padding: 8px;
+            border-radius: 5px;
+        }
+       
+        }
+        }
+        .Contact-Info{
+           margin-top: 40px;
+        }
+          </style>
+    </head>
+    <body  style="background-color: rgba(255, 180, 251, 0.76);">
+    <header>
+        <h1>AFGHAN WOMEN</h1> <br><br>
+        <nav>
+            <a href="index.html" target="blank"> main page</a>
+            <a href="about.html" target="_blank">about </a> 
+            <a href="contact.html" target="_blank">contact with us</a>
+            <a href="gallery.html"  target="_blank">gallery</a> 
+       </nav> <br>
+    </header>
+    <main>
+       <article>
+        <h3 style="margin-left:20px;">we would love to hear from you. please fill out the form below to get in touch with us.</h3>
+        <form style="margin-left:20px;">
+            <label for="name">your name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required >            
+            
+            <label for="email"> Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required> <br> <br>
+
+            <label for="type"><b>Gender</b></label><br>
+ 
+            <input type="radio" name="gender" id="Famale">
+            <label for="Famale">Famale:</label><br>
+   
+            <input type="radio" name="gender" id="Male">
+            <label for="Male">male:</label><br>
+   
+            <input type="radio" name="gender" id="not say">
+            <label for="not say"> I rather not to say:</label><br><br>
+             
+            <label for="massage">Massage</label> <br>
+            <textarea id="massage" name="massage " rows="5" cols="10" required> </textarea> <br>
+            <hr> 
+
+            <p> as afghan women which subject do you want to learn or support?</p>
+
+            <label for="Science & Technology">Science & technology:</label>
+            <input type="checkbox" name="Science & Technology" id="Science & Technology" required><br>
+
+            <label for="Art's & poetry">Art's & poetry:</label>
+            <input type="checkbox" name="Art's & poetry" id="Art's & poetry" ><br>
+
+            <label for="Health & Willbeing" >Health & Willbeing</label>
+            <input type="checkbox" name="Health & Willbeing" id="Health & Willbeing" ><br>
+
+            <label for="Business & Leadership">Business & Leadership</label>
+            <input type="checkbox" name="Business & Leadership" id="Business & Leadership"><br><br><br>
+            
+            <button type="submit" style="color: rgb(167, 3, 189)"> Send Massage</button><br> <br>
+
+            <fieldset class="rating">
+                <legend>Rate My Site:</legend>
+
+                <label for="star5" title="5 stars">&#9733 &#9733 &#9733 &#9733 &#9733</label>
+                <input type="radio" id="star5" name="rating" value="5" required><br>
+
+                <label for="star4" title="4 stars">&#9733 &#9733 &#9733 &#9733</label>
+                <input type="radio" id="star4" name="rating" value="4" required><br>
+
+                <label for="star3" title="3 stars">&#9733 &#9733 &#9733</label>
+                <input type="radio" id="star3" name="rating" value="3" required><br>
+
+                <label for="star2" title="2 stars">&#9733 &#9733</label>
+                <input type="radio" id="star2" name="rating" value="2" required><br>
+
+                <label for="star1" title="1 stars">&#9733</label>
+                <input type="radio" id="star1" name="rating" value="1" required><br>
+            </fieldset>
+        </form>
+    
+        <div class="Contact-Info">
+            <h2 style="margin-left:20px;">Our contact-Info</h2>
+            <p style="margin-left:20px;"> 📧 Email: contact@afghanwome.n.org</p>
+            <p style="margin-left:20px;"> <img src="instagram.png" width="20px" height="20px"> Instagram: @afghan_woman_voice </p>
+            <p style="margin-left:20px;"> 📍 lacation: Kabul, Afghanistan</p>
+            <p style="margin-left:20px;"> 📞 contact:  <a href="mailto:s.bakhtari123@gmail.com" target="blank"> Our Email</a></p>
+        </div>
+      </article>
+    </main>
+</body>
+</html>
